@@ -46,7 +46,7 @@ a provided number:
     Example 2:
 
     ```
-    The program prints Ping, Pong or a numbers.
+    The program prints Ping, Pong or a number.
     Enter a number: 21
     Pong
     ```
@@ -54,7 +54,7 @@ a provided number:
     Example 3:
 
     ```
-    The program prints Ping, Pong or a numbers.
+    The program prints Ping, Pong or a number.
     Enter a number: 70
     PingPong
     ```
@@ -62,7 +62,7 @@ a provided number:
     Example 4:
 
     ```
-    The program prints Ping, Pong or a numbers.
+    The program prints Ping, Pong or a number.
     Enter a number: 5
     5
     ```
