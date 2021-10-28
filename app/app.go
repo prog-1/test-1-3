@@ -26,7 +26,7 @@ func main() {
 		a, b = b, a
 	}
 
-	// TODO: What do the `if ... { ... }` statements below do?
+	// TODO: if дополняет условие ?
 	x = 0
 	if a%2 != 0 {
 		x = x*10 + a
