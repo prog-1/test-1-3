@@ -5,17 +5,17 @@ import "fmt"
 // Replace the comments below with your explanations. Try to provide a
 // "high-level" idea, instead of writing literally what each line does.
 //
-// TODO: What does the program do?
+// The program finds x, which is > 0
 func main() {
 	var x uint
 	fmt.Scan(&x)
 
-	// TODO: What do the variables a, b and c store?
+	// a, b and c stores x division without remainder
 	x, a := x/10, x%10
 	x, b := x/10, x%10
 	x, c := x/10, x%10
 
-	// TODO: What do the three `if ... { ... }` statements below do?
+	// exchange a and b(two times), b and c
 	if a > b {
 		a, b = b, a
 	}
@@ -26,7 +26,7 @@ func main() {
 		a, b = b, a
 	}
 
-	// TODO: What do the `if ... { ... }` statements below do?
+	// These lines calculates when x equals 0
 	x = 0
 	if a%2 != 0 {
 		x = x*10 + a
