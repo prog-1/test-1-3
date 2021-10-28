@@ -7,15 +7,14 @@ func main(){
 	fmt.Println("Enter a number:")
 	var x int
 	fmt.Scan(&x)
-	if x%2 == 0{
+	if x%2 == 0 {
 		fmt.Println("Ping")
-	} else if {
-		x%7 == 0{
+	} else if x%7 == 0  {
 			fmt.Println("Pong")
-	} else if x%2 == 0 && x%7 == 0{
+			return
+	} else if x%2 == 0 && x%7 == 0 {
 	    	fmt.Println("PingPong")
-	} else{
+	} else {
 			fmt.Println(x)
 		}
 	}
-}
