@@ -5,17 +5,17 @@ import "fmt"
 // Replace the comments below with your explanations. Try to provide a
 // "high-level" idea, instead of writing literally what each line does.
 //
-// TODO: What does the program do?
+// Действия программы начинаются здесь, задаётся вид переменной (unit) и сама переменная.
 func main() {
 	var x uint
 	fmt.Scan(&x)
 
-	// TODO: What do the variables a, b and c store?
+	// 1 переменная делется на заданное число, а второй присваивается значение остатка от деления изначальной первой.
 	x, a := x/10, x%10
 	x, b := x/10, x%10
 	x, c := x/10, x%10
 
-	// TODO: What do the three `if ... { ... }` statements below do?
+	// Если всё соответстувеет условию в if программа меняет местами значения переменных a, b, c, так как это указанно в программе.
 	if a > b {
 		a, b = b, a
 	}
@@ -26,7 +26,8 @@ func main() {
 		a, b = b, a
 	}
 
-	// TODO: What do the `if ... { ... }` statements below do?
+	// Изначально х присваивают значение. потом проверяется равен ли остаток от деления на 2 нулю. Если да то выполняется указанное деёствие.
+	// В лучшем случае с переменноё х могут произвенсти 3 действия(В случае если a%2 != 0, b%2 != 0, c%2 != 0). В конце х выводится на печать.
 	x = 0
 	if a%2 != 0 {
 		x = x*10 + a
